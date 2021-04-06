@@ -1,0 +1,41 @@
+.aligner {
+	margin: 0 auto;
+}
+
+.title,
+.caption {
+	font-weight: 800;
+	line-height: 4.8rem;
+}
+
+.title {
+	font-size: 8rem;
+}
+
+.caption {
+	font-size: 4rem;
+}
+
+.line-animation {
+	stroke-dashoffset: 600;
+	stroke-dasharray: 600;
+	animation: animdash 5s infinite 6s;
+}
+
+@keyframes animdash {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+.slider-arrows {
+	position: absolute;
+	top: 4rem;
+	right: 8rem;
+	z-index: 9;
+	cursor: pointer;
+}
+
+.slider-arrows__left {
+	right: 12.5rem;
+}

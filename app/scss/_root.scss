@@ -1,0 +1,85 @@
+/* Set core root defaults */
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	max-width: 1920px;
+	position: relative;
+	overflow-x: hidden;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	color: $white;
+	background-color: $black;
+}
+
+*,
+*::before,
+*::after,
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+a,
+button {
+	color: inherit;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+textarea {
+	border: none;
+	resize: none;
+	outline: none;
+	-moz-appearance: none;
+	max-width: 100%;
+	overflow: hidden;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+img,
+picture {
+	object-fit: cover;
+	display: block;
+	height: auto;
+}
+
+img:not([alt]) {
+	filter: blur(3px);
+}
