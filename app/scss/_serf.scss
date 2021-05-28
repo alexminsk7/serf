@@ -1,0 +1,23 @@
+.serf {
+	padding: 16rem 0 21rem;
+	background-image: url(../images/svg/serf-map.svg);
+	background-position: right 20rem;
+	background-repeat: no-repeat;
+	background-size: auto;
+	&__subtitle {
+		text-align: right;
+		padding-right: 8rem;
+		margin-top: -8.6rem;
+
+		.subtitle {
+			// display: inline-block;
+			// text-align: right;
+			&__head {
+				padding-right: 1rem;
+				span {
+					font-weight: 100;
+				}
+			}
+		}
+	}
+}

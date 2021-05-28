@@ -112,28 +112,8 @@
 			right: 8rem;
 			bottom: 11.6rem;
 			text-align: right;
-
-			.suptitle-left {
-				display: inline-block;
-				position: relative;
-				font-size: 2.2rem;
-				line-height: 3.2rem;
-				letter-spacing: 0.73rem;
-				padding-left: 10.3rem;
-				opacity: 0.5;
-				margin-bottom: 0.5rem;
-				&::before {
-					content: '';
-					position: absolute;
-					width: 8rem;
-					height: 1px;
-					left: 0;
-					top: 50%;
-					background-color: $white;
-				}
-			}
 			&-title {
-				margin-bottom: 4.8rem;
+				margin: 1rem 0 4.8rem;
 			}
 			&-suptext {
 				margin-bottom: 0.8rem;

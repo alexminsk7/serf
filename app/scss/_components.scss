@@ -1,9 +1,16 @@
+.container {
+	max-width: 192rem;
+	margin: 0 auto;
+	outline: 1px solid red;
+}
+
 .aligner {
 	margin: 0 auto;
 }
 
 .title,
 .caption,
+.subtitle__head,
 .slider__title {
 	font-weight: 800;
 }
@@ -39,7 +46,8 @@
 	}
 }
 
-.caption {
+.caption,
+.subtitle__head {
 	font-size: 4rem;
 }
 
@@ -69,4 +77,24 @@
 
 .slider-arrows__left {
 	right: 12.5rem;
+}
+
+.headline-left {
+	display: inline-block;
+	position: relative;
+	font-size: 2.2rem;
+	line-height: 3.2rem;
+	letter-spacing: 0.73rem;
+	padding-left: 10.3rem;
+	opacity: 0.5;
+	margin-bottom: 1.5rem;
+	&::before {
+		content: '';
+		position: absolute;
+		width: 8rem;
+		height: 1px;
+		left: 0;
+		top: 50%;
+		background-color: $white;
+	}
 }
